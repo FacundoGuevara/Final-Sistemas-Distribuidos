@@ -29,7 +29,7 @@ Plataforma web completa para clínica veterinaria. Permite a los clientes explor
 ### Autenticación
 - Proveedor: **Auth0**
 - Roles: `admin`, `veterinario`, `cliente`
-- Claims en JWT bajo el namespace `https://cafeteria.com/roles`
+- Claims en JWT bajo el namespace `https://veterinaria.com/roles`
 - Roles mapeados en Spring Security con prefijo `ROLE_` (ej: `ROLE_CLIENTE`)
 
 ---
